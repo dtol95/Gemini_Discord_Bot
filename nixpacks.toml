@@ -2,7 +2,7 @@
 
 [nix]
   version = "2"
-  inputs.python = { package = "pkgs.python310" }
+  inputs.python = { package = "pkgs.python311Full" }
 
 [phases.setup]
-  pkgs = ["...", "python310"]
+  pkgs = ["...", "python311Full"]
