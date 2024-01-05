@@ -1,0 +1,8 @@
+# nixpacks.toml
+
+[nix]
+  version = "2"
+  inputs.python = { package = pkgs.python310; }
+
+[phases.setup]
+  packages = ["python"]
