@@ -5,4 +5,4 @@
   inputs.python = { package = "pkgs.python310" }
 
 [phases.setup]
-  packages = ["python"]
+  pkgs = ["...", "python310"]
