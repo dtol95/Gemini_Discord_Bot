@@ -1,6 +1,6 @@
 # railway.toml
 
-name = "gemini-discord-bot"
+name = "Gemini_Discord_Bot"
 language = "python"
 output = "python310"
 
