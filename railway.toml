@@ -1,0 +1,13 @@
+# railway.toml
+
+name = "gemini-discord-bot"
+language = "python"
+output = "python310"
+
+[[services]]
+  name = "discord-bot"
+  script = "GeminiDiscordBot.py"
+  port = 3000  # Replace with the appropriate port if needed
+
+[env]
+  RAILWAY_ENV = "production"
