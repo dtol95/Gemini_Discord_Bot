@@ -1,8 +1,0 @@
-# nixpacks.toml
-
-[nix]
-  version = "2"
-  inputs.python = { package = "pkgs.python311Full" }
-
-[phases.setup]
-  pkgs = ["...", "python311Full"]
