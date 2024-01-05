@@ -11,3 +11,6 @@ output = "python310"
 
 [env]
   RAILWAY_ENV = "production"
+
+[start]
+  command = "echo 'No start command required'"
